@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+nav {
+  margin: 1em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+nav ul li {
+  cursor: pointer;
+  padding: 0.5em 1em;
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+}
+
+#searchContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+#searchInput {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+#SearchButton {
+  padding: 0.5em 1em;
+  background-color: #555;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#SearchButton:hover {
+  background-color: #333;
+}
+
+.card .newsImg {
+  width: 300px;
+  height: 200px;
+  border-radius: 25px;
+  object-fit: contain;
+}
+
+.news-link {
+  padding: 5px;
+  margin-top: 15px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  width: 100%;
+  max-height: 70%;
+  background-color: azure;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  align-items: start;
+  justify-content: space-around;
+  padding: 10px;
+  margin: auto;
+}
+
+.card {
+  margin: 10px;
+  text-align: center;
+  /* padding: 10px; */
+  height: 500px;
+}
+
+.news-img {
+  width: 400px;
+  height: 200px;
+
+  /* border-radius: 25px; */
+  object-fit: contain;
+}
+.cardTitle{
+  /* border: 1px solid red; */
+  width: 100%;
+  padding: 0px;
+  text-align: justify;
+}
